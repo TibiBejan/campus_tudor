@@ -1,0 +1,170 @@
+@import './variables';
+
+// HEADINGS
+.heading-one {
+    font-size: 5vw;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    color: $primary-light-gray-1;
+
+    @media screen and (max-width: $bp-medium) {
+        font-size: 6vw;
+    }
+}
+
+.heading-two {
+    font-size: 3.5vw;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 1.2;
+    color: $primary-light-gray-1;
+
+    @media screen and (max-width: $bp-medium) {
+        font-size: 4.5vw;
+    }
+}
+
+.heading-four {
+    $font-family: $secondary-font;
+    font-size: 1.5vw;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    color: $white;
+
+    @media screen and (max-width: $desktop-utility-bp-large) {
+        font-size: 2vw;
+    }
+
+    @media screen and (max-width: $bp-medium) {
+        font-size: 2.5vw;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+        font-size: 3.5vw;
+    }
+}
+
+.dark-text {
+    color: $primary-dark-gray-1 !important;
+}
+
+// PARAGRAPHS
+.paragraph-showcase {
+    font-family: $primary-font;
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    color: $primary-light-gray-1;
+
+    @media screen and (max-width: $bp-medium) {
+        font-size: 1.8rem;
+    }
+}
+
+.paragraph {
+    font-family: $primary-font;
+    font-size: 1.9rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    color: $primary-light-gray-1;
+
+    @media screen and (max-width: $bp-medium) {
+        font-size: 1.6rem;
+    }
+}
+
+.paragraph-secondary {
+    font-family: $primary-font;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    color: $secondary-dark-gray-1;
+}
+
+// LABELS
+.label {
+    font-family: $primary-font;
+    font-size: 1.9rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 2;
+    color: $primary-light-gray-1;
+
+    @media screen and (max-width: $bp-medium) {
+        font-size: 1.6rem;
+    }
+}
+
+.label-medium {
+    font-family: $primary-font;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 2;
+    color: $primary-light-gray-1;
+
+    @media screen and (max-width: $bp-medium) {
+        font-size: 1.4rem;
+    }
+}
+
+.label-small {
+    font-family: $primary-font;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: $primary-dark-gray-1;
+}
+
+.link-label {
+    font-family: $primary-font;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 2;
+    color: $primary-light-gray-1;
+
+    @media screen and (max-width: $desktop-utility-bp-large) {
+        font-size: 2.2rem;
+    }
+
+    @media screen and (max-width: $bp-large) {
+        font-size: 1.8rem;
+    }
+
+    @media screen and (max-width: $bp-medium) {
+        font-size: 1.6rem;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+        font-size: 2rem;
+    }
+}
+
+.vertical-label {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+
+.logo-link-label-primary {
+    font-family: $secondary-font;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: $primary-light-gray-1;
+
+    @media screen and (max-width: $bp-large) {
+        font-size: 2rem;
+    }
+
+    @media screen and (max-width: $bp-small) {
+        font-size: 1.5rem;
+    }
+}
