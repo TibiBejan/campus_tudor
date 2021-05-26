@@ -1,11 +1,10 @@
 @import '../../../scss/variables';
 @import '../../../scss/mixins';
 
-.showcase-banner {
+.showcase-banner-small {
     position: relative;
     width: 100%;
-    height: 100vh;
-    min-height: 90rem;
+    height: 70rem;
     padding: 0 12rem;
     overflow: hidden;
 
@@ -18,8 +17,6 @@
     }
 
     @media screen and (max-width: $bp-small) {
-        height: 85vh;
-        min-height: 75rem;
         padding: 0
     }
 
@@ -34,7 +31,7 @@
         right: 0;
         width: calc(100% - 12rem);
         height: 0.1rem;
-        background-color:  $primary-dark-gray-2;
+        background-color: $primary-dark-gray-2;
 
         @media screen and (max-width: $bp-large) {
             width: calc(100% - 10rem);
@@ -56,7 +53,7 @@
         width: 100%;
         height: 100%;
         
-        .media-background {
+        .background-image {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -65,31 +62,36 @@
     }
 
     &-content {
-        height: 100%;
         width: 100%;
+        height: 100%;
         @include flex-setup($flex-flow: column, $align-items: flex-start, $justify-content: center);
         margin-left: 12rem;
+        // margin-top: 12rem;
 
         @media screen and (max-width: $bp-large) {
             margin-left: 10rem;
+            // margin-top: 10rem;
         }
 
         @media screen and (max-width: $bp-medium) {
             margin-left: 9rem;
+            // margin-top: 9rem;
         }
 
         @media screen and (max-width: $bp-small) {
             margin-left: 7rem;
+            // margin-top: 7rem;
         }
 
         @media screen and (max-width: $bp-mobile) {
             margin-left: 0;
+            // margin-top: 0;
         }
 
         .content-heading-wrapper {
             width: 100%;
             @include flex-setup($flex-flow: column, $align-items: flex-start, $justify-content:  flex-start);
-            margin-bottom: var(--margin-small);
+            margin-bottom: var(--margin-medium);
             z-index: 100;
 
             .heading-wrapper-line {
@@ -100,17 +102,15 @@
 
         .paragraph-wrapper {
             width: 100%;
-            max-width: 60%;
-            margin-bottom: var(--margin-medium);
+            max-width: 70%;
             z-index: 100;
 
             @media screen and (max-width: $bp-large) {
-                max-width: 75%;
+                max-width: 85%;
             }
 
             @media screen and (max-width: $bp-mobile) {
                 max-width: 100%;
-                margin-bottom: var(--margin-small);
             }
         }
     }

@@ -5,7 +5,7 @@ import ShowcaseBanner from '../components/SharedComponents/ShowcaseBanner/Showca
 import AboutSection from '../components/SharedComponents/AboutSection/AboutSection';
 import FacilitiesSection from '../components/HomepageComponents/FacilitiesSection/FacilitiesSection';
 import DescriptiveSection from '../components/HomepageComponents/DescriptiveSection/DescriptiveSection';
-import StatsSection from '../components/HomepageComponents/StatsSection/StatsSection';
+import StatsSection from '../components/SharedComponents/StatsSection/StatsSection';
 import Footer from '../components/LayoutComponents/Footer/Footer';
 
 // DATA AND MEDIA
