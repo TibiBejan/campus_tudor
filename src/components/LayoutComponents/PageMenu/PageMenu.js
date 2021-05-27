@@ -164,7 +164,7 @@ function PageMenu({ toggled, handleMenu }) {
                             <ul className="nav-block-links">
                                 {el.navLinks.map((link, index) => (
                                     <li className="nav-block-list-item" key={`nav-list-item-${index}`}>
-                                        <Link to="" className="nav-block-link">
+                                        <Link to={link.path} className="nav-block-link">
                                             <span className="link-label">{link.title}</span>
                                         </Link>
                                     </li>
