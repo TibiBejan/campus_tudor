@@ -1,0 +1,59 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.marquee-section {
+    padding: var(--general-padding-small) 0;
+
+    .container-fluid {
+        padding: 0 1.5rem;
+
+        .marquee {
+            width: 100%;
+            @include flex-setup($flex-flow: row, $align-items: center, $justify-content: flex-start);
+            overflow: hidden;
+        }
+
+        .marquee-content {
+            @include flex-setup($flex-flow: row, $align-items: center, $justify-content: flex-start);
+            white-space: nowrap;
+            animation: infiniteText 30s linear infinite;
+            animation-play-state: play;
+        }
+
+        .marquee-content-label {
+            @include flex-setup($flex-flow: row, $align-items: center, $justify-content: flex-start);
+
+            .marquee-text {
+                margin-right: var(--margin-small);
+            }
+
+            .marquee-line {
+                margin-right: var(--margin-small);
+                height: 1.5rem;
+                width: 5rem;
+                border: 0.2rem solid $primary-light-gray-1;
+                background-color: transparent;
+
+                @media screen and (max-width: $bp-large) {
+                    width: 4rem;
+                    height: 1.25rem;
+                }
+
+                @media screen and (max-width: $bp-small) {
+                    width: 3rem;
+                    height: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@keyframes infiniteText {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

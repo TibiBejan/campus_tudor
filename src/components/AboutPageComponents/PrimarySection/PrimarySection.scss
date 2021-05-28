@@ -1,0 +1,17 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.primary-section {
+    width: 100%;
+
+    &-inner {
+        position: relative;
+        min-height: 50rem;
+        overflow: hidden;
+        background-color: wheat;
+    }
+}
+
+
+
+

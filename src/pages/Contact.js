@@ -1,10 +1,36 @@
 import React from 'react';
 
+// COMPONENTS
+import HeaderBannerSmall from '../components/SharedComponents/ShowcaseBannerSmall/ShowcaseBannerSmall';
+import ContactPersons from '../components/ContactPageComponents/ContactPersonsSection/ContactPersons';
+import ContactFormSection from '../components/ContactPageComponents/ContactFormSection/ContactFormSection';
+import MapSection from '../components/ContactPageComponents/MapSection/MapSection';
+import FacilitiesPreview from '../components/SharedComponents/FacilitiesPreviewSection/FacilitiesPreview';
+import StatsSection from '../components/SharedComponents/StatsSection/StatsSection';
+import Footer from '../components/LayoutComponents/Footer/Footer';
+
+// DATA AND MEDIA
+const bannerData = {
+    title: 'Contactează-ne',
+    description: [
+        'Direcţia Servicii Studenţeşti reprezintă o structură organizaţională a Universității Tehnice „Gheorghe Asachi” din Iași, subordonată Direcţiei Generale Administrative și Prorectoratului Relația cu Studenții, care coordonează activităţile administrative din Campusul „Tudor Vladimirescu”.',
+        'Direcţia Servicii Studenţeşti este coordonată de un director şi, în funcţie de activităţile desfăşurate, are în subordine următoarele structuri organizaţionale: Serviciu Social, Birou Tehnic, Birou Financiar – Contabilitate.'    
+    ]
+}
+
 function Contact() {
     return (
-        <div>
-            <h1>Contact Page</h1>
-        </div>
+        <>
+            <HeaderBannerSmall bannerData={bannerData} />
+            <main className="page-content">
+                <ContactPersons />
+                <ContactFormSection />
+                <MapSection />
+                <FacilitiesPreview />
+                <StatsSection />
+            </main>
+            <Footer />
+        </>
     )
 }
 
