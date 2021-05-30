@@ -112,18 +112,6 @@ function PageMenu({ toggled, handleMenu }) {
 
     // REF"S
     const menu = useRef(null);
-    // const menuNavigation = useRef(null);
-    // const menuNavigationBlock = useRef([]);
-    // menuNavigationBlock.current = [];
-    // const menuShowcase = useRef(null);
-    // const menuShowcaseSwiper = useRef(null);
-
-    // // GET ALL REFS
-    // const getRefs = (el, targetRef) => {
-    //     if(el && !targetRef.current.includes(el)){
-    //         targetRef.current.push(el);
-    //     }
-    // }
 
     //EFFECT
     useEffect(() => {

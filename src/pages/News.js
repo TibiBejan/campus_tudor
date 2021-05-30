@@ -8,7 +8,7 @@ import StatsSection from '../components/SharedComponents/StatsSection/StatsSecti
 import Footer from '../components/LayoutComponents/Footer/Footer';
 
 // DATA AND MEDIA
-import bannerImage from '../assets/images/CampusNews/campus-00009.jpg';
+import bannerImage from '../assets/images/CampusNews/newspage-banner.jpg';
 const bannerData = {
     title: 'Ultimele noutăți',
     description: ['Studenții Politehnicii ieșene învață să manipuleze întreaga lume din jurul lor: o dezmembrează și o remodelează după chipul și îndrăzneala fiecărei generații. Cele 11 facultăți nu sunt fortărețe individuale, ci felii dintr-un „quattro stagioni” gustos – se completează în compoziție și arome. O să descoperiți asta în campus, în proiectele asociațiilor studențești și la toate evenimentele #TUIASI.']

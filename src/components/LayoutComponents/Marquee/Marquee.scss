@@ -2,7 +2,7 @@
 @import '../../../scss/mixins';
 
 .marquee-section {
-    padding: var(--general-padding-small) 0;
+    padding: 1.5rem 0;
 
     .container-fluid {
         padding: 0 1.5rem;
@@ -16,7 +16,7 @@
         .marquee-content {
             @include flex-setup($flex-flow: row, $align-items: center, $justify-content: flex-start);
             white-space: nowrap;
-            animation: infiniteText 30s linear infinite;
+            animation: infiniteText 50s linear infinite;
             animation-play-state: play;
         }
 
@@ -29,19 +29,17 @@
 
             .marquee-line {
                 margin-right: var(--margin-small);
-                height: 1.5rem;
-                width: 5rem;
-                border: 0.2rem solid $primary-light-gray-1;
+                height: 1rem;
+                width: 4rem;
+                border: 0.15rem solid $primary-light-gray-1;
                 background-color: transparent;
 
                 @media screen and (max-width: $bp-large) {
-                    width: 4rem;
-                    height: 1.25rem;
+                    width: 3.5rem;
                 }
 
                 @media screen and (max-width: $bp-small) {
                     width: 3rem;
-                    height: 1rem;
                 }
             }
         }

@@ -18,9 +18,11 @@ function AboutSection({ sectionData }) {
                     {sectionData.description.map((paragraph, index) => (
                         <p className="paragraph" key={`paragraph-${index}`}>{paragraph}</p>
                     ))}
-                    <Link to="/dss" className="link-wrapper">
-                        <Button textLabel={sectionData.buttonLabel} />
-                    </Link>
+                    {sectionData.buttonLabel && (
+                        <Link to="/dss" className="link-wrapper">
+                            <Button textLabel={sectionData.buttonLabel} />
+                        </Link>
+                    )}
                 </div>
             </div>
         </section>

@@ -62,6 +62,27 @@
     }
 }
 
+.heading-five {
+    $font-family: $secondary-font;
+    font-size: 1vw;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    color: $white;
+
+    @media screen and (max-width: $desktop-utility-bp-large) {
+        font-size: 1.5vw;
+    }
+
+    @media screen and (max-width: $bp-medium) {
+        font-size: 2vw;
+    }
+
+    @media screen and (max-width: $bp-mobile) {
+        font-size: 3vw;
+    }
+}
+
 .dark-text {
     color: $primary-dark-gray-1 !important;
 }
@@ -115,8 +136,25 @@
     color: $secondary-dark-gray-1;
 }
 
+.paragraph-quote-large {
+    font-size: 1.5vw;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 2;
+    color: $primary-light-gray-1;
+
+    @media screen and (max-width: $bp-medium) {
+        font-size: 2.5vw;
+    }
+
+    @media screen and (max-width: $bp-small) {
+        font-size: 2.75vw;
+    }
+}
+
 // LABELS
-.label {
+.label,
+.hexagon-label {
     font-family: $primary-font;
     font-size: 1.9rem;
     font-weight: 400;
@@ -152,16 +190,16 @@
 }
 
 .marquee-label {
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: 500;
     letter-spacing: 0.1rem;
     line-height: 1.2;
     color: $primary-dark-gray-1;
     -webkit-text-fill-color: $primary-dark-gray-1;
-    -webkit-text-stroke: 0.2rem $primary-light-gray-1;
+    -webkit-text-stroke: 0.1rem $primary-light-gray-1;
 
     @media screen and (max-width: $bp-medium) {
-        font-size: 6vw;
+        font-size: 4.5vw;
     }
 }
 
@@ -193,6 +231,14 @@
 .vertical-label {
     writing-mode: vertical-lr;
     text-orientation: mixed;
+}
+
+.number-label-large {
+    font-family: $numbers-font;
+    font-size: 17.5vw;
+    font-weight: 400;
+    color: $primary-light-gray-2;
+    letter-spacing: 0.5rem;
 }
 
 .logo-link-label-primary {

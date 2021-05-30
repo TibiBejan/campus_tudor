@@ -5,7 +5,7 @@ function ShowcaseBannerSmall({ bannerData, bannerImage }) {
     return (
         <div className="showcase-banner-small">
             <div className="showcase-banner-small-media">
-                {/* <img src={bannerImage} alt="" className="background-image" /> */}
+                <img src={bannerImage} alt="" className="background-image" />
             </div>
             <div className="showcase-banner-small-content">
                 <div className="content-heading-wrapper">

@@ -4,7 +4,7 @@
 .showcase-banner-small {
     position: relative;
     width: 100%;
-    min-height: auto;
+    height: 70rem;
     padding: 0 12rem;
     overflow: hidden;
 
@@ -29,21 +29,9 @@
         position: absolute;
         bottom: 0;
         right: 0;
-        width: calc(100% - 12rem);
+        width:100%;
         height: 0.1rem;
         background-color: $primary-dark-gray-2;
-
-        @media screen and (max-width: $bp-large) {
-            width: calc(100% - 10rem);
-        }
-    
-        @media screen and (max-width: $bp-medium) {
-            width: calc(100% - 9rem);
-        }
-    
-        @media screen and (max-width: $bp-small) {
-            width: 100%;
-        }
     }
 
     &-media {
@@ -52,6 +40,8 @@
         left: 0;
         width: 100vw;
         height: 100%;
+        user-select: none;
+        pointer-events: none;
         
         .background-image {
             filter: brightness(50%);
