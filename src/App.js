@@ -9,6 +9,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import News from './pages/News';
 import Organisations from './pages/Organisations';
+import StudentServices from './pages/StudentServices';
 // COMPONENTS
 import Gradient from './components/LayoutComponents/PageGradient/Gradient';
 import Header from './components/LayoutComponents/Header/Header';
@@ -47,6 +48,9 @@ function App() {
             </Route>
             <Route path="/organisations">
               <Organisations />
+            </Route>
+            <Route path="/dss">
+              <StudentServices />
             </Route>
           </Switch>
         </SmoothScroll>

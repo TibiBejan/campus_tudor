@@ -11,7 +11,7 @@ function SmoothScroll({ children }) {
     const smoothScrollContainer = useRef(null);
 
     const scrollData = useMemo(() => ({
-        ease: 0.15,
+        ease: 0.2,
         curr: 0,
         prev: 0,
         rounded: 0,
