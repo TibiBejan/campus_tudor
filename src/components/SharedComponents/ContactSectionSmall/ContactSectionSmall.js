@@ -1,13 +1,13 @@
 import React from 'react';
 import './ContactSectionSmall.scss';
 
-function ContactSectionSmall() {
+function ContactSectionSmall({ title }) {
     return (
         <section className="contact-section">
             <div className="contact-section-inner">
                 <div className="contact-section-content">
                     <div className="content-heading-wrapper">
-                        <h3 className="content-heading-title heading-three">Contactează-ne pentru informații suplimentare</h3>
+                        <h3 className="content-heading-title heading-three">{title}</h3>
                     </div>
                     <div className="content-block">
                         <div className="content-block-group">

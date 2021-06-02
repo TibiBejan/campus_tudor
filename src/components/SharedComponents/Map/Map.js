@@ -2,7 +2,7 @@ import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 
-function Map({ Lat, Lng }) {
+function Map({ Lat, Lng, PopupText }) {
     return (
         <MapContainer center={[Lat, Lng]} zoom={18} scrollWheelZoom={false}>
             <TileLayer
@@ -11,7 +11,7 @@ function Map({ Lat, Lng }) {
             />
             <Marker position={[Lat, Lng]}>
                 <Popup>
-                    Cămin T18 &amp; Cămin T19 - Parter <br/> Bulevardul Tudor Vladimirescu, Iași 700050.
+                    {PopupText}
                 </Popup>
             </Marker>
         </MapContainer>

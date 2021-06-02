@@ -14,7 +14,7 @@ function ShowcaseBannerSmall({ bannerData, bannerImage }) {
                     </div>
                 </div>
                 <div className="paragraph-wrapper">
-                    {bannerData.description.map((paragraph, index)=> (
+                    {bannerData.description?.map((paragraph, index)=> (
                         <p className="paragraph-showcase" key={`banner-description-paragraph-${index}`}>{paragraph}</p>
                     ))}    
                 </div>

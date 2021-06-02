@@ -21,7 +21,7 @@
         bottom: 0;
         height: 100%;
         width: 0.1rem;
-        background-color: $primary-dark-gray-2;
+        background-color: $primary-dark-blue-2; //$primary-dark-gray-2
     }
 
     @media screen and (max-width: $bp-large) {
@@ -93,7 +93,7 @@
                             left: 0;
                             height: 100%;
                             width: 0.15rem;
-                            background-color: $primary-light-gray-1;
+                            background-color: $primary-light-text-1; //$primary-light-gray-1;
                             transform: scaleY(0);
                             transform-origin: top;
                             transition: var(--hover-transition);
@@ -128,7 +128,7 @@
         }
 
         &:hover {
-            background-color: $primary-dark-gray-2;
+            background-color: $primary-dark-blue-2; //$primary-dark-gray-2
         }
 
         &::before {
@@ -139,7 +139,7 @@
             right: 0;
             width: 100%;
             height: 0.1rem;
-            background-color: $primary-dark-gray-2;
+            background-color: $primary-dark-blue-2; //$primary-dark-gray-2
         }
 
         .link-wrapper {
@@ -149,7 +149,7 @@
             svg{
                 width: 35%;
                 height: 35%;
-                fill: $primary-light-gray-1;
+                fill: $primary-light-text-1; //$primary-light-gray-1;
             }
         }
     }

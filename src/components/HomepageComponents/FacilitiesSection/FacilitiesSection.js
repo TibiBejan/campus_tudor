@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { IconContext } from 'react-icons';
-import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+// import { IconContext } from 'react-icons';
+// import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 import './FacilitiesSection.scss';
 
 // SWIPER SLIDER
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import "swiper/swiper.min.css";
-import "swiper/components/pagination/pagination.min.css"
+
 
 const facilitiesData = [
     {
@@ -33,17 +33,6 @@ const facilitiesData = [
 
 function FacilitiesSection() {
 
-    // REFS
-    // const slidesImagesArr = useRef(null);
-    // slidesImagesArr.current = [];
-
-    // const getRefs = (el, targetRef) => {
-    //     if(el && !targetRef.current.includes(el)){
-    //         targetRef.current.push(el);
-    //     }
-    // }
-
-
     return (
         <section className="facilities-section">
             <div className="facilities-section-inner">
@@ -55,15 +44,6 @@ function FacilitiesSection() {
                     resistance={true}
                     resistanceRatio={0.5}
                     speed={1000}
-                    // onSlideChangeTransitionStart={() => {
-                    //     console.log('animation out');
-                    // }}
-                    // onSlideChangeTransitionEnd={() => {
-                    //     console.log('animation in');
-                    // }}
-                    // onSlideChange={(SwiperCore) => {
-                    //     const {activeIndex} = SwiperCore;
-                    // }}
                     className="facilities-slider"
                 >
                     {facilitiesData.map(facility => (
@@ -80,16 +60,6 @@ function FacilitiesSection() {
                                     </div>
                                 </Link>
                                 <div className="facilities-slide-showcase">
-                                    <button className="showcase-prev-button">
-                                        <IconContext.Provider value={{color: '#fafafa', size: '34px'}}>
-                                            <BsArrowLeft />
-                                        </IconContext.Provider>
-                                    </button>
-                                    <button className="showcase-next-button">
-                                        <IconContext.Provider value={{color: '#fafafa', size: '34px'}}>
-                                            <BsArrowRight />
-                                        </IconContext.Provider>
-                                    </button>
                                     <div className="showcase-background">
                                         <div className="showcase-background-overlay"></div>
                                         <div className="showcase-background-media">
@@ -99,12 +69,10 @@ function FacilitiesSection() {
                                 </div>
                             </div>
                         </SwiperSlide>
-                    ))}
-                    
-                </Swiper>
-                
-                
+                    ))}              
 
+                </Swiper>
+                    
             </div>
         </section>
     )

@@ -23,7 +23,7 @@
         bottom: 0;
         height: 0.1rem;
         width: 100%;
-        background-color: $primary-dark-gray-2;
+        background-color: $secondary-dark-blue-2; //$primary-dark-gray-2
     }
 
     @media screen and (max-width: $bp-large) {
@@ -45,7 +45,7 @@
     &-logo {
         height: 100%;
         width: 24rem;
-        background-color: $primary-dark-gray-2;
+        background-color: $secondary-dark-blue-2; //$primary-dark-gray-2
         transition: var(--hover-transition);
 
         @media screen and (max-width: $bp-large) {
@@ -71,7 +71,7 @@
         &.active-scrolled {
             width: 12rem;
             height: 100%;
-            background-color: $primary-light-gray-1;
+            background-color:$primary-light-text-1; //$primary-light-gray-1
 
             @media screen and (max-width: $bp-large) {
                 width: 10rem;
@@ -124,7 +124,7 @@
                 left: 0;
                 height: 100%;
                 width: 0.1rem;
-                background-color: $primary-dark-gray-2;
+                background-color: $secondary-dark-blue-2; //$primary-dark-gray-2
             }
 
             .transparent-button {
@@ -136,7 +136,7 @@
 
                 @media screen and (min-width: $bp-medium) {
                     &:hover {
-                        background-color: $primary-dark-gray-2;
+                        background-color: $secondary-dark-blue-2; //$primary-dark-gray-2
                         padding: 0 12.5rem;
     
                         @media screen and (max-width: $bp-medium) {
@@ -169,12 +169,12 @@
                 svg {
                     height: 22.5%;
                     width: auto;
-                    fill: $primary-light-gray-1
+                    fill: $primary-light-text-1; //$primary-light-gray-1
                 }
 
                 @media screen and (min-width: $bp-medium) {
                     &:hover {
-                        background-color: $primary-dark-gray-2;
+                        background-color: $secondary-dark-blue-2; //$primary-dark-gray-2
                         padding: 0 7.5rem;
     
                         @media screen and (max-width: $bp-medium) {

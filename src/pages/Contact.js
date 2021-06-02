@@ -9,7 +9,8 @@ import FacilitiesPreview from '../components/SharedComponents/FacilitiesPreviewS
 import StatsSection from '../components/SharedComponents/StatsSection/StatsSection';
 import Footer from '../components/LayoutComponents/Footer/Footer';
 
-// DATA AND MEDIA
+// DATA AND MEDI
+import bannerImage from '../assets/images/StudentServices/student-services-banner-2.jpg';
 const bannerData = {
     title: 'Contactează-ne',
     description: [
@@ -21,7 +22,7 @@ const bannerData = {
 function Contact() {
     return (
         <>
-            <HeaderBannerSmall bannerData={bannerData} />
+            <HeaderBannerSmall bannerData={bannerData} bannerImage={bannerImage}/>
             <main className="page-content">
                 <ContactPersons />
                 <ContactFormSection />

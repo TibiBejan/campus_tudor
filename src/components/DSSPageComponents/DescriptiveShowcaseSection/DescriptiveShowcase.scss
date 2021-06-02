@@ -14,7 +14,7 @@
         right: 0;
         width: 100%;
         height: 0.1rem;
-        background-color: $primary-dark-gray-2;
+        background-color: $primary-dark-blue-2; //$primary-dark-gray-2
     }
 
     &-inner {
@@ -92,7 +92,7 @@
                             left: 0;
                             width: 100%;
                             height: 100%;
-                            background-color: $primary-dark-gray-2;
+                            background-color: $primary-dark-blue-2; //$primary-dark-gray-2
                             transform: scaleX(0);
                             transform-origin: left;
                             transition: var(--hover-transition);
@@ -127,13 +127,13 @@
                         padding: 2.5rem 0;
 
                         .button-link-label {
-                            color: $secondary-dark-gray-1;
+                            color: $secondary-dark-blue-1; //$secondary-dark-gray-1;
                             transition: var(--hover-transition);
                         }
 
                         &.active .button-link-label,
                         &:hover .button-link-label {
-                            color: $primary-light-gray-1;
+                            color: $primary-light-text-1; //$primary-light-gray-1;
                         }
                     }
                 }

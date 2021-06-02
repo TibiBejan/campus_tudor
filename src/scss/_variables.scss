@@ -3,8 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+
 $primary-font: 'Roboto', sans-serif;
 $secondary-font: 'Playfair Display', serif;
+$headings-font: 'Numans', sans-serif;
 $numbers-font: 'Cinzel', serif;
 
 // COLORS
@@ -19,8 +22,21 @@ $secondary-dark-gray-2: #575757;
 $secondary-dark-gray-3: #323232;
 
 $primary-light-gray-1: #fafafa; // GENERAL TEXT
-$primary-light-gray-2: #eaeaea;
+$primary-light-gray-2: #eaeaea; 
 
+// SECONDARY COLOR PALLETE
+$primary-dark-blue-1: #1a1a1a;
+$primary-dark-blue-2: #464646;
+$primary-dark-blue-3: #272727;
+
+$secondary-dark-blue-1: #7d7d7d;
+$secondary-dark-blue-2: #575757;
+$secondary-dark-blue-3: #323232;
+
+$primary-light-text-1: #fafafa;
+$primary-light-text-2: #eaeaea;
+
+$primary-yellow: #d3a14c;
 
 // BREAKPOINTS
 $bp-mobile-small: 360px;

@@ -2,6 +2,12 @@ import React from 'react';
 import OrganisationCard from '../../SharedComponents/OrganisationCard/OrganisationCard';
 import './OrganisationsSection.scss';
 
+// SWIPER SLIDER
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/components/pagination/pagination.min.css"
+
 const cardsData = [
     {
         id: 1,
@@ -94,9 +100,32 @@ function OrganisationsSection() {
         <section className="organisations-section">
             <div className="organisations-section-inner">
 
-                {cardsData.map(card => (
+                <Swiper 
+                    slidesPerView={1}
+                    breakpoints={{
+                        1500: {slidesPerView: 3},
+                        1366: {slidesPerView: 2.35},
+                        1024: {slidesPerView: 2},
+                        650: {slidesPerView: 1.35}
+                    }}
+                    spaceBetween={50}
+                    grabCursor={true}
+                    resistance={true}
+                    resistanceRatio={0.5}
+                    speed={1000}
+                    className="organisations-section-slider"
+                >
+                    {cardsData.map(card => (
+                        <SwiperSlide key={`news-card-${card.id}`}>
+                            <OrganisationCard cardData={card} />
+                        </SwiperSlide>  
+                    ))}
+
+                </Swiper>
+                
+                {/* {cardsData.map(card => (
                     <OrganisationCard cardData={card} key={`news-card-${card.id}`}/>
-                ))}
+                ))} */}
 
             </div>
     </section>

@@ -35,7 +35,7 @@
         height: 55rem;
         display: grid;
         grid-template-columns: repeat(2, 50%);
-        background-color: $primary-dark-gray-3;
+        background-color: $primary-dark-blue-3; // $primary-dark-gray-3
         transition: var(--hover-transition);
 
         @media screen and (max-width: $bp-medium) {
@@ -84,7 +84,7 @@
 
                 .content-inner-date {
                     margin-bottom: 1.5rem;
-                    color: $secondary-dark-gray-1;
+                    color: $secondary-dark-blue-1; // $secondary-dark-gray-1
                 }
 
                 .content-inner-title {
@@ -100,7 +100,7 @@
                 }
 
                 .content-inner-paragraph {
-                    color: $secondary-dark-gray-1;
+                    color: $secondary-dark-blue-1; // $secondary-dark-gray-1
 
                     @media screen and (max-width: $bp-medium) {
                         margin-bottom: var(--margin-medium);

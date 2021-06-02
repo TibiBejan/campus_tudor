@@ -5,7 +5,8 @@ import HeaderBannerSmall from '../components/SharedComponents/ShowcaseBannerSmal
 import AboutSection from '../components/SharedComponents/AboutSection/AboutSection';
 import DescriptiveShowcase from '../components/DSSPageComponents/DescriptiveShowcaseSection/DescriptiveShowcase';
 import ReviewSection from '../components/SharedComponents/ReviewSection/ReviewSection';
-import ContactSectionSmall from '../components/DSSPageComponents/ContactSectionSmall/ContactSectionSmall';
+import ContactSectionSmall from '../components/SharedComponents/ContactSectionSmall/ContactSectionSmall';
+import FacilitiesPreview from '../components/SharedComponents/FacilitiesPreviewSection/FacilitiesPreview';
 import StatsSection from '../components/SharedComponents/StatsSection/StatsSection';
 import Footer from '../components/LayoutComponents/Footer/Footer';
 
@@ -25,7 +26,8 @@ function StudentServices() {
                 <AboutSection sectionData={ aboutSectionData }/>
                 <DescriptiveShowcase />
                 <ReviewSection sectionData={ reviewData }/>
-                <ContactSectionSmall />
+                <ContactSectionSmall title="Contactează-ne pentru informații suplimentare" />
+                <FacilitiesPreview />
                 <StatsSection />
             </main>
             <Footer />

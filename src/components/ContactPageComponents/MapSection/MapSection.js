@@ -2,6 +2,12 @@ import React from 'react';
 import Map from '../../SharedComponents/Map/Map';
 import './MapSection.scss';
 
+const mapData = {
+    lat: '47.15734077564309',
+    lng: '27.604033173200683',
+    popupText: 'Cămin T18 &amp; Cămin T19 - Parter <br/> Bulevardul Tudor Vladimirescu, Iași 700050.'
+}
+
 function MapSection() {
     return (
         <section className="map">
@@ -21,7 +27,7 @@ function MapSection() {
                     </div>
                 </div>
                 <div className="map-inner-wrapper">
-                    <Map Lat={47.15734077564309} Lng={27.604033173200683}/>
+                    <Map Lat={mapData.lat} Lng={mapData.lng} PopupText={mapData.popupText}/>
                 </div>
             </div>
         </section>

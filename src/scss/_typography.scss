@@ -2,11 +2,12 @@
 
 // HEADINGS
 .heading-one {
+    font-family: $headings-font;
     font-size: 5vw;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 1.2;
-    color: $primary-light-gray-1;
+    color: $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $bp-medium) {
         font-size: 6vw;
@@ -14,11 +15,12 @@
 }
 
 .heading-two {
+    font-family: $headings-font;
     font-size: 3.5vw;
     font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 1.2;
-    color: $primary-light-gray-1;
+    color: $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $bp-medium) {
         font-size: 4.5vw;
@@ -26,11 +28,12 @@
 }
 
 .heading-three {
+    font-family: $headings-font;
     font-size: 1.5vw;
     font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 1.5;
-    color: $primary-light-gray-1;
+    color: $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $bp-medium) {
         font-size: 2.2vw;
@@ -42,12 +45,12 @@
 }
 
 .heading-four {
-    $font-family: $secondary-font;
+    font-family: $headings-font;
     font-size: 1.5vw;
     font-weight: 800;
     letter-spacing: 0.1rem;
     line-height: 1.5;
-    color: $white;
+    color: $primary-light-text-1; // $white
 
     @media screen and (max-width: $desktop-utility-bp-large) {
         font-size: 2vw;
@@ -63,12 +66,12 @@
 }
 
 .heading-five {
-    $font-family: $secondary-font;
+    font-family: $headings-font;
     font-size: 1vw;
     font-weight: 600;
     letter-spacing: 0.1rem;
     line-height: 1.5;
-    color: $white;
+    color: $primary-light-text-1; // $white
 
     @media screen and (max-width: $desktop-utility-bp-large) {
         font-size: 1.5vw;
@@ -84,7 +87,7 @@
 }
 
 .dark-text {
-    color: $primary-dark-gray-1 !important;
+    color: $primary-dark-blue-1 !important; //$primary-dark-gray-1
 }
 
 // PARAGRAPHS
@@ -94,7 +97,7 @@
     font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 1.5;
-    color: $primary-light-gray-1;
+    color: $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $bp-medium) {
         font-size: 1.8rem;
@@ -107,7 +110,7 @@
     font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 1.5;
-    color: $primary-light-gray-1;
+    color: $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $bp-medium) {
         font-size: 1.6rem;
@@ -120,7 +123,7 @@
     font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 1.5;
-    color: $primary-light-gray-1;
+    color: $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $bp-medium) {
         font-size: 1.4rem;
@@ -133,15 +136,16 @@
     font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 1.5;
-    color: $secondary-dark-gray-1;
+    color: $secondary-dark-blue-1; //$secondary-dark-gray-1
 }
 
 .paragraph-quote-large {
+    font-family: $primary-font;
     font-size: 1.5vw;
     font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 2;
-    color: $primary-light-gray-1;
+    color:  $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $bp-medium) {
         font-size: 2.5vw;
@@ -159,7 +163,7 @@
     font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 2;
-    color: $primary-light-gray-1;
+    color:  $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $bp-medium) {
         font-size: 1.6rem;
@@ -172,7 +176,7 @@
     font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 2;
-    color: $primary-light-gray-1;
+    color:  $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $bp-medium) {
         font-size: 1.4rem;
@@ -185,7 +189,7 @@
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
-    color: $primary-dark-gray-1;
+    color: $primary-dark-blue-1; //$primary-dark-gray-1
 }
 
 .marquee-label {
@@ -193,9 +197,9 @@
     font-weight: 500;
     letter-spacing: 0.1rem;
     line-height: 1.2;
-    color: $primary-dark-gray-1;
-    -webkit-text-fill-color: $primary-dark-gray-1;
-    -webkit-text-stroke: 0.1rem $primary-light-gray-1;
+    color: $primary-dark-blue-1; //$primary-dark-gray-1
+    -webkit-text-fill-color: $primary-dark-blue-1; //$primary-dark-gray-1
+    -webkit-text-stroke: 0.1rem $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $bp-medium) {
         font-size: 4.5vw;
@@ -208,7 +212,7 @@
     font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 2;
-    color: $primary-light-gray-1;
+    color: $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $desktop-utility-bp-large) {
         font-size: 2.2rem;
@@ -236,7 +240,7 @@
     font-family: $numbers-font;
     font-size: 17.5vw;
     font-weight: 400;
-    color: $primary-light-gray-2;
+    color: $primary-light-text-2; //$primary-light-gray-2;
     letter-spacing: 0.5rem;
 }
 
@@ -246,7 +250,7 @@
     font-weight: 700;
     letter-spacing: 0;
     text-transform: uppercase;
-    color: $primary-light-gray-1;
+    color: $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $bp-large) {
         font-size: 2rem;
@@ -265,7 +269,7 @@ textarea {
     font-weight: 400;
     letter-spacing: 0.1rem;
     line-height: 1.5;
-    color: $primary-light-gray-1;
+    color: $primary-light-text-1; // $primary-light-gray-1;
 
     @media screen and (max-width: $bp-medium) {
         font-size: 1.6rem;
@@ -275,5 +279,5 @@ textarea {
 // STRONG 
 strong {
     font-weight: 700;
-    color: $primary-light-gray-1;
+    color: $primary-light-text-1; // $primary-light-gray-1;
 }

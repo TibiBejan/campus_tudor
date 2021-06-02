@@ -31,7 +31,7 @@
                 margin-right: var(--margin-small);
                 height: 1rem;
                 width: 4rem;
-                border: 0.15rem solid $primary-light-gray-1;
+                border: 0.15rem solid $primary-light-text-1; //$primary-light-gray-1
                 background-color: transparent;
 
                 @media screen and (max-width: $bp-large) {

@@ -16,7 +16,7 @@ function Footer() {
                 <div className="footer-primary-links">
                     <ul className="footer-links-list">
                         <li className="footer-links-list-item">
-                            <Link to="" className="footer-link-wrapper">
+                            <Link to="/dss" className="footer-link-wrapper">
                                 <IconContext.Provider value={{color: '#fafafa', size: '50px'}}>
                                     <BsArrowRight className="footer-link-icon"/>
                                 </IconContext.Provider>
@@ -24,7 +24,7 @@ function Footer() {
                             </Link>
                         </li>
                         <li className="footer-links-list-item">
-                            <Link to="" className="footer-link-wrapper">
+                            <Link to="/account" className="footer-link-wrapper">
                                 <IconContext.Provider value={{color: '#fafafa', size: '50px'}}>
                                     <BsArrowRight className="footer-link-icon"/>
                                 </IconContext.Provider>
@@ -40,7 +40,7 @@ function Footer() {
                             </Link>
                         </li>
                         <li className="footer-links-list-item">
-                            <Link to="" className="footer-link-wrapper">
+                            <Link to="/questions" className="footer-link-wrapper">
                                 <IconContext.Provider value={{color: '#fafafa', size: '50px'}}>
                                     <BsArrowRight className="footer-link-icon"/>
                                 </IconContext.Provider>

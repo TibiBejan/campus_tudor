@@ -69,7 +69,8 @@ const menuNav = [
                 path: '/accommodation'
             },
             {
-                title: 'Tuiasi'
+                title: 'Tuiasi',
+                path: '/tuiasi'
             },
         ]
     },

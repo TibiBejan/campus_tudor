@@ -17,7 +17,7 @@
         right: 0;
         height: 0.1rem;
         width: 100%;
-        background-color: $primary-dark-gray-2;
+        background-color: $primary-dark-blue-2; //$primary-dark-gray-2;
     }
 
     &-inner {
@@ -48,7 +48,7 @@
 
             .contact-form-paragraph {
                 margin-bottom: var(--margin-small);
-                color: $primary-dark-gray-2;
+                color: $primary-dark-blue-2; //$primary-dark-gray-2;
             }
 
             .contact-form-title {
@@ -87,7 +87,7 @@
                     .form-group-input {
                         width: 100%;
                         padding: 2.5rem;
-                        border: 0.1rem solid $primary-dark-gray-2;
+                        border: 0.1rem solid $primary-dark-blue-2; //$primary-dark-gray-2;
                         transition: var(--hover-transition);
 
                         &::-webkit-calendar-picker-indicator {
@@ -97,7 +97,7 @@
                         &:hover,
                         &:focus,
                         &:valid {
-                            border-color: $primary-light-gray-1;
+                            border-color: $primary-light-text-1; //$primary-light-gray-1;
                         }
                     }
 
@@ -124,7 +124,7 @@
                             }
 
                             .button-group-input:checked + .radio-button-el {
-                                border-color:  $primary-light-gray-1;
+                                border-color:  $primary-light-text-1; //$primary-light-gray-1;
 
                                 &::after {
                                     transform: translate(-50%, -50%) scale(1);
@@ -136,7 +136,7 @@
                                 width: 3rem;
                                 height: 3rem;
                                 margin-right: var(--margin-small);
-                                border: 0.1rem solid $primary-dark-gray-2;
+                                border: 0.1rem solid $primary-dark-blue-2; //$primary-dark-gray-2;
                                 border-radius: 50%;
 
                                 &::after {
@@ -147,7 +147,7 @@
                                     width: 2rem;
                                     height: 2rem;
                                     border-radius: inherit;
-                                    background-color: $primary-light-gray-1;
+                                    background-color: $primary-light-text-1; //$primary-light-gray-1;
                                     transform: translate(-50%, -50%) scale(0);
                                     will-change: transform;
                                     transition: var(--hover-transition);

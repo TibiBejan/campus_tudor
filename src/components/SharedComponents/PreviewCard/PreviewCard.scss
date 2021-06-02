@@ -4,7 +4,7 @@
 .preview-card {
     height: auto;
     @include flex-setup($flex-flow: column);
-    background-color: $primary-dark-gray-3;
+    background-color: $secondary-dark-blue-3; //$primary-dark-gray-3
     transition: var(--hover-transition);
     
     &:hover {
@@ -28,7 +28,7 @@
 
         .content-label {
             margin-bottom: 1rem;
-            color: $secondary-dark-gray-1;
+            color: $secondary-dark-blue-1; // $secondary-dark-gray-1
         }
 
         .content-title {

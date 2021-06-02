@@ -19,7 +19,7 @@
         right: 0;
         width: 100%;
         height: 0.1rem;
-        background-color: $primary-dark-gray-2;
+        background-color: $secondary-dark-blue-2; // $primary-dark-gray-2
     }
 
     &-inner {
@@ -82,7 +82,7 @@
                     left: 0;
                     width: 100%;
                     height: 100%;
-                    background-color: $primary-dark-gray-2;
+                    background-color: $secondary-dark-blue-2; // $primary-dark-gray-2
                     transform: scaleX(0);
                     transform-origin: left;
                     transition: var(--hover-transition);
@@ -132,13 +132,13 @@
                             left: 0;
                             width: 50%;
                             height: 0.1rem;
-                            background-color: $primary-light-gray-2;
+                            background-color: $primary-light-text-2; // $primary-light-gray-2
                         }
                     }
 
                     .quote-label {
                         text-transform: uppercase;
-                        color: $primary-dark-gray-2
+                        color: $secondary-dark-blue-2; // $primary-dark-gray-2
                     }
                 }
             }

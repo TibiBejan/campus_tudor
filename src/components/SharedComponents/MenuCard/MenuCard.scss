@@ -16,7 +16,7 @@
             right: 0;
             height: 100%;
             width: 0.1rem;
-            background-color: $primary-light-gray-2;
+            background-color: $primary-light-text-2; // $primary-light-gray-2
         }
     }
 
@@ -47,7 +47,7 @@
             @include flex-setup( $align-items: center, $justify-content: center);
             margin-bottom: 1.5rem;
             padding: 1rem 1.5rem;
-            background-color: $primary-light-gray-1;
+            background-color: $primary-light-text-1; // $primary-light-gray-1
             border-radius: 5rem;
         }
 

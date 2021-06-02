@@ -31,7 +31,7 @@
             height: 35rem;
             max-width: 35rem;
             margin-bottom: var(--margin-medium);
-            background-color: $secondary-dark-gray-3;
+            background-color: $secondary-dark-blue-3; // $primary-dark-gray-3
 
             @media screen and (max-width: $bp-small) {
                 height: 35rem;
@@ -54,7 +54,7 @@
 
         .paragraph {
             margin-bottom: var(--margin-small);
-            color: $primary-dark-gray-2;
+            color: $secondary-dark-blue-2; // $primary-dark-gray-2
         }
 
         .contact-group {
@@ -80,7 +80,7 @@
                     width: 100%;
                     transform: scaleX(0);
                     transform-origin: left;
-                    background-color: $primary-light-gray-1;
+                    background-color: $primary-light-text-1; // $primary-light-gray-1
                     transition: var(--hover-transition);
                 }
 
