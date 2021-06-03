@@ -157,6 +157,23 @@
 }
 
 // LABELS
+.label-large {
+    font-family: $primary-font;
+    font-size: 1.5vw;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 2;
+    color:  $primary-yellow;
+
+    @media screen and (max-width: $bp-medium) {
+        font-size: 2.5vw;
+    }
+
+    @media screen and (max-width: $bp-small) {
+        font-size: 2.75vw;
+    }
+}
+
 .label {
     font-family: $primary-font;
     font-size: 1.9rem;

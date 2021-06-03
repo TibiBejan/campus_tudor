@@ -5,21 +5,30 @@ import { gsap } from 'gsap';
 import ScrollToTop from './uitls/ScrollToTop/ScrollToTop';
 // PAGE'S
 import Index from './pages/Index';
-import UserAccount from './pages/UserAccount';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import News from './pages/News';
 import Organisations from './pages/Organisations';
 import StudentServices from './pages/StudentServices';
-// COMPONENTS
-import Gradient from './components/LayoutComponents/PageGradient/Gradient';
-import Header from './components/LayoutComponents/Header/Header';
-
-import SmoothScroll from './components/LayoutComponents/SmoothScrollContainer/SmoothScroll';
-import ForgotPassword from './pages/ForgotPassword';
 import Cafetaria from './pages/Cafetaria';
 import SportsBase from './pages/SportsBase';
 import Tuiasi from './pages/Tuiasi';
+import HealthSecurity from './pages/HealthSecurity';
+import Police from './pages/Police';
+import Dispensary from './pages/Dispensary';
+import CounselingCenter from './pages/CounselingCenter';
+import Accommodation from './pages/Accommodation';
+import ResidenceHalls from './pages/ResidenceHalls';
+
+import Login from './pages/Login';
+import ForgotPassword from './pages/ForgotPassword';
+import Register from './pages/Register';
+
+// COMPONENTS
+import Gradient from './components/LayoutComponents/PageGradient/Gradient';
+import Header from './components/LayoutComponents/Header/Header';
+import SmoothScroll from './components/LayoutComponents/SmoothScrollContainer/SmoothScroll';
+
 
 function App() {
 
@@ -42,11 +51,14 @@ function App() {
             <Route exact path="/">
               <Index />
             </Route>
-            <Route exact path="/account">
-              <UserAccount />
+            <Route exact path="/login">
+              <Login />
             </Route>
-            <Route path="/account/forgot-password">
+            <Route exact path="/login/forgot-password">
               <ForgotPassword />
+            </Route>
+            <Route exact path="/register">
+              <Register />
             </Route>
             <Route path="/about">
               <About />
@@ -56,6 +68,18 @@ function App() {
             </Route>
             <Route path="/news">
               <News />
+            </Route>
+            <Route exact path="/health-security">
+              <HealthSecurity />
+            </Route>
+            <Route path="/health-security/police">
+              <Police />
+            </Route>
+            <Route path="/health-security/dispensary">
+              <Dispensary />
+            </Route>
+            <Route path="/health-security/counseling-center">
+              <CounselingCenter />
             </Route>
             <Route path="/organisations">
               <Organisations />
@@ -71,6 +95,12 @@ function App() {
             </Route>
             <Route path="/tuiasi">
               <Tuiasi />
+            </Route>
+            <Route path="/accommodation">
+              <Accommodation />
+            </Route>
+            <Route path="/residence-halls">
+              <ResidenceHalls />
             </Route>
           </Switch>
         </SmoothScroll>

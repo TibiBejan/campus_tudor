@@ -5,7 +5,7 @@ import ErrorMessageEl from '../../SharedComponents/FormErrorMessage/ErrorMessage
 import ButtonPrimary from '../../SharedComponents/Button/ButtonPrimary'
 import { IconContext } from 'react-icons';
 import { ImEye } from "react-icons/im";
-import './UserLogin.scss';
+import './UserLoginWrapper.scss'
 
 function UserLogin() {
 
@@ -63,7 +63,7 @@ function UserLogin() {
                     </div>
                     <ButtonPrimary type="submit" textLabel="Conectare" />
                 </form>
-                <Link to="/account/forgot-password" className="link-wrapper">
+                <Link to="/login/forgot-password" className="link-wrapper">
                     <span className="link-wrapper-label label-medium">Forgot your password?</span>
                 </Link>
             </div>     

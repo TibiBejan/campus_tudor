@@ -24,7 +24,7 @@ function Footer() {
                             </Link>
                         </li>
                         <li className="footer-links-list-item">
-                            <Link to="/account" className="footer-link-wrapper">
+                            <Link to="/login" className="footer-link-wrapper">
                                 <IconContext.Provider value={{color: '#fafafa', size: '50px'}}>
                                     <BsArrowRight className="footer-link-icon"/>
                                 </IconContext.Provider>

@@ -2,26 +2,26 @@ import React from 'react';
 
 // COMPONENTS
 import UserAccountBanner from '../components/UserAccountComponents/UserAccountBanner/UserAccountBanner';
-import ForgotPasswordSection from '../components/UserAccountComponents/ForgotPasswordWrapper/ForgotPasswordWrapper';
+import UserLoginWrapper from '../components/UserAccountComponents/UserLoginWrapper/UserLoginWrapper';
 import StatsSection from '../components/SharedComponents/StatsSection/StatsSection';
 import Footer from '../components/LayoutComponents/Footer/Footer';
 
 const data = {
-    isLoginPage: false,
-    subtitle: "Register and join our family."
+    isLoginPage: true,
+    subtitle: "Don't have an account?"
 }
 
-function ForgotPassword() {
+function Login() {
     return (
         <>
             <main className="page-content">
-                <UserAccountBanner  sectionData={ data }/> 
-                <ForgotPasswordSection />
+                <UserAccountBanner sectionData={ data }/>
+                <UserLoginWrapper />
                 <StatsSection />
-            </main>
+            </main>   
             <Footer />
         </>
     )
 }
 
-export default ForgotPassword;
+export default Login;

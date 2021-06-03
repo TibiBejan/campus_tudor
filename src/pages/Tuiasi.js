@@ -3,6 +3,7 @@ import React from 'react';
 // COMPONENTS
 import HeaderBannerSmall from '../components/SharedComponents/ShowcaseBannerSmall/ShowcaseBannerSmall';
 import ReasonSection from '../components/TuiasiPageComponents/ReasonSection/ReasonSection';
+import BecomeStudent from '../components/TuiasiPageComponents/BecomeStudentSection/BecomeStudent';
 import StatsSection from '../components/SharedComponents/StatsSection/StatsSection';
 import Footer from '../components/LayoutComponents/Footer/Footer';
 
@@ -22,7 +23,7 @@ function Tuiasi() {
                 <ReasonSection sectionData={erasmusData} />
                 <ReasonSection sectionData={libraryData} />
                 <ReasonSection sectionData={campusData} />
-                
+                <BecomeStudent />
                 <StatsSection />
             </main>
             <Footer />

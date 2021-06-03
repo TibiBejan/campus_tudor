@@ -95,8 +95,7 @@
                         }
 
                         &:hover,
-                        &:focus,
-                        &:valid {
+                        &:focus {
                             border-color: $primary-light-text-1; //$primary-light-gray-1;
                         }
                     }

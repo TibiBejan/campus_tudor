@@ -4,7 +4,7 @@ import './PreviewCard.scss';
 
 function PreviewCard({ cardData }) {
     return (
-        <Link to="" className="preview-card-wrapper">
+        <Link to={cardData.path} className="preview-card-wrapper">
             <div className="preview-card">
                 <div className="preview-card-content">
                     <span className="content-label label-medium">{cardData.label}</span>

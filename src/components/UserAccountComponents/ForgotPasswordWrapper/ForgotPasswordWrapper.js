@@ -2,17 +2,15 @@ import React from 'react';
 import { useForm } from "react-hook-form";
 import ErrorMessageEl from '../../SharedComponents/FormErrorMessage/ErrorMessage';
 import ButtonPrimary from '../../SharedComponents/Button/ButtonPrimary';
-import './ForgotPasswordSection.scss';
+import './ForgotPasswordWrapper.scss';
 
-function ForgotPasswordSection() {
-
+function ForgotPasswordWrapper() {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
 
     const onSubmit = (data) => {
         console.log(data);
     };
-
 
     return (
         <section className="forgot-password-section">
@@ -41,4 +39,4 @@ function ForgotPasswordSection() {
     )
 }
 
-export default ForgotPasswordSection;
+export default ForgotPasswordWrapper;

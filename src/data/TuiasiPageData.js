@@ -1,9 +1,7 @@
-import { mapData } from "./SportsBasePageData"
-
 export const bannerData = {
     image: require(`../assets/images/Tuiasi/banner-image.jpg`),
     title: '7 MOTIVE SĂ ALEGI TUIASI',
-    description: null
+    description: ['TUIASI este printre primele instituții de învățământ superior de profil tehnic din țară și se încadrează în categoria universităților de cercetare avansată și educație. De mai bine de două secole, de pe băncile universității noastre au plecat specialiști în domeniile ingineriei electrice, electronicii, construcțiilor, calculatoarelor, arhitecturii, hidrotehnicii, textilelor, mecanicii sau chimiei, dar și în ale cercetării, presei, economiei sau politicii.']
 }
 
 export const engineeringData = {

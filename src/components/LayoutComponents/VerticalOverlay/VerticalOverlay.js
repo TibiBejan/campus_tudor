@@ -20,24 +20,24 @@ function VerticalOverlay({ toggled }) {
                 </ul>
                 <ul className={toggled.clicked ? "content-page-social-links fade-in" : "content-page-social-links"}>
                     <li className="social-links-list-item">
-                        <Link to="" className="social-link">
+                        <a href="https://www.tuiasi.ro/" target="_blank" rel="noreferrer" className="social-link">
                             <span className="page-link-label label vertical-label">Tuiasi</span>
-                        </Link>
+                        </a>
                     </li>
                     <li className="social-links-list-item">
-                        <Link to="" className="social-link">
+                        <a href="https://www.facebook.com/TUIasiRO" target="_blank" rel="noreferrer" className="social-link">
                             <span className="page-link-label label vertical-label">Facebook</span>
-                        </Link>
+                        </a>
                     </li>
                     <li className="social-links-list-item">
-                        <Link to="" className="social-link">
+                        <a href="https://www.instagram.com/campustudorvladimirescu/" target="_blank" rel="noreferrer" className="social-link">
                             <span className="page-link-label label vertical-label">Instagram</span>
-                        </Link>
+                        </a>
                     </li>
                     <li className="social-links-list-item">
-                        <Link to="" className="social-link">
+                        <a href="https://www.linkedin.com/school/universitatea-tehnic%C4%83-%E2%80%9Egh.-asachi%E2%80%9D-din-ia%C8%99i/" target="_blank" rel="noreferrer" className="social-link">
                             <span className="page-link-label label vertical-label">Linkedin</span>
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </div>

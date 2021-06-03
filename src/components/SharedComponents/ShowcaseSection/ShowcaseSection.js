@@ -1,4 +1,5 @@
 import React from 'react';
+import Map from '../Map/Map';
 import './ShowcaseSection.scss';
 
 function ShowcaseSection({ sectionData }) {
@@ -39,11 +40,11 @@ function ShowcaseSection({ sectionData }) {
                     
                     <div className="content-images">
 
-                        {sectionData.imagesBlock.bottomImages.map((image, index) => (
+                        {sectionData.imagesBlock.bottomImages?.map((image, index) => (
                             <div className="image-block" key={`top-image-block-${index}`}>
                                 <div className="image-block-overlay"></div>
                                 <div className="image-block-showcase">
-                                <img src={image.bottomImage.default} alt={image.bottomImageAlt} className="background-image" />
+                                    <img src={image.bottomImage.default} alt={image.bottomImageAlt} className="background-image" />
                                 </div>
                             </div>
                         ))}

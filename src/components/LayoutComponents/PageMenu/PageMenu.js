@@ -58,7 +58,7 @@ const menuNav = [
         navLinks: [
             {
                 title: 'Account',
-                path: '/account'
+                path: '/login'
             },
             {
                 title: 'Organisations',

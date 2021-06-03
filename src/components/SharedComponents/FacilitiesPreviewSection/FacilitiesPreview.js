@@ -5,20 +5,23 @@ import './FacilitiesPreview.scss';
 const cardsData = [
     {
         id: 1,
+        path: '/cafeteria',
         label: 'Tudor Vladimirescu',
         title: 'Cantina',
         image: require(`../../../assets/images/Cantina/cantina-1-min.jpg`)
     },
     {
         id: 2,
+        path: '/sports-base',
         label: 'Tudor Vladimirescu',
         title: 'Baza Sportivă',
         image: require(`../../../assets/images/BazaSportiva/baza-sportiva-00009.jpg`)
     },
     {
         id: 3,
+        path: '/health-security/counseling-center',
         label: 'Tudor Vladimirescu',
-        title: 'Săli de lectură',
+        title: 'Centru de consiliere',
         image: require(`../../../assets/images/SalaLectura/sali-lectura-00010.jpg`)
     },
 ]

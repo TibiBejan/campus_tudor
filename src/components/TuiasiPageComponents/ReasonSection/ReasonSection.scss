@@ -55,6 +55,11 @@
 
                 &.wrapper-even{
                     order: 2;
+
+                    
+                    @media screen and (max-width: $bp-large) {
+                        order: 1;
+                    }
                 }
 
                 @media screen and (max-width: $bp-large) {
@@ -82,6 +87,10 @@
 
                 &.images-even {
                     order: 1;
+
+                    @media screen and (max-width: $bp-large) {
+                        order: 2;
+                    }
                 }
 
                 @media screen and (max-width: $bp-large) {
