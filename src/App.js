@@ -19,6 +19,7 @@ import Dispensary from './pages/Dispensary';
 import CounselingCenter from './pages/CounselingCenter';
 import Accommodation from './pages/Accommodation';
 import ResidenceHalls from './pages/ResidenceHalls';
+import FAQ from './pages/FAQ';
 
 import Login from './pages/Login';
 import ForgotPassword from './pages/ForgotPassword';
@@ -101,6 +102,9 @@ function App() {
             </Route>
             <Route path="/residence-halls">
               <ResidenceHalls />
+            </Route>
+            <Route path="/questions">
+              <FAQ />
             </Route>
           </Switch>
         </SmoothScroll>
